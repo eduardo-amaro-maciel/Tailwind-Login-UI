@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins
+}
+
+.btn-primary {
+    @apply w-full px-4 py-3 font-medium text-white bg-black border-black border-2 rounded-md on-focus;
+}
+
+.btn-secondery {
+    @apply w-full px-4 py-3 font-bold  bg-transparent text-black border-black border-2 rounded-md on-focus;
+}
+
+.on-focus {
+    @apply focus:shadow-[0px_0px_0px_3px] focus:shadow-green-300;
+}
+
+.input-primary {
+    @apply w-full p-3 outline-none border-2 rounded-md mb-5 border-black on-focus
+}

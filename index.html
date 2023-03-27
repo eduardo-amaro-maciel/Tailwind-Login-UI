@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-[#a0a0a0] w-full min-h-screen p-10 flex items-center justify-center overflow-auto max-sm:p-2">
+        <div class="w-full max-w-[1200px] min-h-[800px] bg-white grid grid-rows-1 grid-cols-2 overflow-hidden rounded-lg max-lg:grid-cols-1">
+            <!-- Seção do formulário -->
+            <section class="p-10 flex flex-col items-center justify-center max-sm:p-5">
+                <form class="flex flex-col items-center justify-center w-full">
+                    <h1 class="text-5xl mb-20 max-sm:mb-14">SIGN IN</h1>
+                    <input type="text" name="" id="" placeholder="Email" tabindex="1" class="input-primary">
+                    <input type="password" name="" id="" placeholder="Password" tabindex="2" class="input-primary">
+                    <div class="flex justify-between w-full mb-16 max-sm:flex-col max-sm:items-center max-sm:gap-4">
+                        <div>
+                            <input type="checkbox" name="" id="" tabindex="3" class="on-focus">
+                            <label for="">Keep me logged in</label>
+                        </div>
+                        <a href="#" tabindex="4" class="on-focus">Forget email or password?</a>
+                    </div>
+                    <div class="flex gap-5 w-full">
+                        <button class="btn-secondery" tabindex="5">REGISTER</button>
+                        <button class="btn-primary" type="submit" tabindex="6"> SIGN IN</button>
+                    </div>
+                    <div class="py-10 w-full flex items-center">
+                        <div class="w-full h-[2px] bg-black"></div>
+                        <p class="px-2">OR</p>
+                        <div class="w-full h-[2px] bg-black"></div>
+                    </div>
+                    <button tabindex="7" class="w-full rounded-md btn-secondery flex items-center justify-center gap-4">
+                        <img src="./public/google.png" alt="" class="w-7">
+                        <span>SIGN IN WITH GOOGLE</span>
+                    </button>
+                </form>
+            </section>
+            <!-- Seção da imagem de fundo -->
+            <section class="h-full w-full bg-[url('/public/bg.svg')] bg-cover bg-center bg-none-repeat max-lg:hidden"></section>
+        </div>
+    </div>
+</body>
+</html>
