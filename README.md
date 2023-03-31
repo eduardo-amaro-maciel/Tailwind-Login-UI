@@ -1,5 +1,7 @@
 # Login UI with Tailwind
 
+![Capturar](https://user-images.githubusercontent.com/73178068/229133603-a9b74602-5c6c-401b-b11e-870b90abcc1a.JPG)
+
 Este é um código HTML que utiliza o framework de estilo Tailwind para estilização. Ele cria uma página de login responsiva com um formulário de login e uma seção de imagem de fundo.
 
 O formulário de login inclui campos para email e senha, além de uma opção "manter-me conectado" e botões para registro e login. Há também um botão para fazer login com o Google.
